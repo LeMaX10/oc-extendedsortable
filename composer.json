@@ -1,0 +1,23 @@
+{
+  "name": "lemax10/oc-extendedsortable",
+  "type": "october-plugin",
+  "description": "The Extended Sortable Other Plugins",
+  "keywords": ["october", "cms", "extendedplugins", "plugin"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladimir Pyankov",
+      "email": "vladimir@pyankov.pro",
+      "role": "Co-founder"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LeMaX10\\ExtendedSortable\\": ""
+    }
+  }
+}
